@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<markers>
+  <marker>
+    <marker_id>4</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>Warszawa, &#x41F;&#x43E;&#x43B;&#x44C;&#x448;&#x430;</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>52.229676</lat>
+    <lng>21.012229</lng>
+    <anim>0</anim>
+    <retina>0</retina>
+    <category></category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>5</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>52.230678123334854, 21.015107018547496</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>52.230678</lat>
+    <lng>21.015107</lng>
+    <anim>0</anim>
+    <retina>0</retina>
+    <category></category>
+    <infoopen>1</infoopen>
+  </marker>
+  <marker>
+    <marker_id>6</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>Centrum, Warszawa, &#x41F;&#x43E;&#x43B;&#x44C;&#x448;&#x430;</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>52.234794</lat>
+    <lng>21.003062</lng>
+    <anim>0</anim>
+    <retina>0</retina>
+    <category></category>
+    <infoopen>1</infoopen>
+  </marker>
+  <marker>
+    <marker_id>7</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>P&#x142;ocka 21, &#x412;&#x430;&#x440;&#x448;&#x430;&#x432;&#x430;, &#x41F;&#x43E;&#x43B;&#x44C;&#x448;&#x430;</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>52.234014</lat>
+    <lng>20.965476</lng>
+    <anim>0</anim>
+    <retina>0</retina>
+    <category></category>
+    <infoopen>0</infoopen>
+  </marker>
+</markers>

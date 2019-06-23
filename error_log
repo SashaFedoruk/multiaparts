@@ -1,0 +1,4 @@
+[27-Nov-2018 08:53:43 UTC] База данных WordPress возвратила ошибку Table 'u656380156_edesa.reservations' doesn't exist в ответ на запрос SELECT datein, dateout 
+            FROM reservations, выполненный require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/multiaparttheme/index.php'), get_footer, locate_template, load_template, require_once('/themes/multiaparttheme/footer.php')
+[27-Nov-2018 08:53:50 UTC] База данных WordPress возвратила ошибку Table 'u656380156_edesa.reservations' doesn't exist в ответ на запрос SELECT datein, dateout 
+            FROM reservations, выполненный require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/multiaparttheme/single-post.php'), get_footer, locate_template, load_template, require_once('/themes/multiaparttheme/footer.php')

@@ -1,0 +1,723 @@
+/*   
+Theme Name: MultiApart
+Theme URI: none
+Description: Тема для сайта фирмы MultiApart
+Author: KFStudia
+Author URI: http://kfstudia.com/
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14pt;
+}
+
+.header-block,
+.footer-block {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background: #440000;
+}
+.footer-block {
+    height: 150px;
+}
+.header,
+.footer {
+    padding: 0 15%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: #fff;
+}
+
+.footer {
+    margin-top: 25px;
+}
+
+.header .logo,
+.footer .logo {
+    flex: 50%;
+}
+.footer .logo{
+    flex: 30%;
+}
+.footer-block .regulamin{
+    background: #440000;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.footer-block .regulamin a:link,
+.footer-block .regulamin a:visited,
+.footer-block .regulamin a:active{
+    text-decoration: none;
+    color: #fff;
+}
+.header .logo a,
+.footer .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.header .panel,
+.footer .panel {
+    flex: 50%;
+}
+.footer .panel{
+    flex: 70%;
+}
+ul {
+    float: right;
+    width: 100%;
+}
+
+.header .adres,
+.footer .adres {
+    float: right;
+    text-align: right;
+}
+
+.header .language ul li {
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.header .language ul li:hover {
+    opacity: 0.8;
+}
+
+.header .language ul li:nth-child(1) {
+    margin-right: 0;
+}
+
+.wrap {
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.picture:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.6;
+}
+
+.picture img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.picture h1 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: bold;
+    z-index: 5;
+    margin-bottom: 100px;
+}
+
+.content {
+    position: absolute;
+    top: 620px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content .content-title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #440000, #985118);
+}
+
+.online-info-block {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px 60px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+}
+.online-info-block h2{
+    width: 100%;
+}
+.online-info-block p{
+    width: 100%;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.content .content-title h2 {
+    font-size: 1.3em;
+    font-weight: 200;
+    color: #fff;
+}
+
+.villa {
+    margin: 25px 0;
+}
+
+.money-change {
+    display: inline-block;
+    width: 100%;
+}
+
+.money-block {
+    display: inline-block;
+    padding: 10px 20%;
+    float: right;
+}
+
+.money-block p {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.money-block select {
+    display: inline-block;
+}
+
+.apart {
+    widows: 100%;
+    padding: 10px 20%;
+    display: flex;
+    height: 220px;
+}
+
+.apart .flat {
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 8px #000;
+}
+
+.flat .info-block {
+    display: flex;
+    flex: 80%;
+}
+
+.flat .panel-block {
+    flex: 20%;
+}
+
+.flat .info-block .text {
+    width: 55%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flat .info-block img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.flat .info-block .image {
+    position: relative;
+    overflow: hidden;
+    width: 40%;
+}
+.contents > p{
+    text-align: left;
+    font-size: 1em;
+    margin: 20px 0;
+}
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    color: #440000;
+    font-weight: normal;
+}
+
+h3 span.price {
+    font-weight: bold;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+.text-block p {
+    margin-top: 10px;
+}
+
+.text-block a,
+.text-block a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.flat .panel-block {
+    padding: 10px;
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.flat .panel-block .btn-block a,
+form .btn-block a {
+    text-align: center;
+    color: #4f0400;
+    border: 1px solid #999;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 50%;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    font-size: 0.8em;
+    background: linear-gradient(to bottom, #fdd13a, #ec8421);
+}
+
+form .btn-block a {
+    width: 200px;
+}
+
+.flat .panel-block .btn-block a:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.flat .panel-block .btn-block a:hover {
+    opacity: 0.8;
+}
+
+
+/* Modal */
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalDialog .modalBlock {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+    min-width: 450px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.modalDialog:target {
+    display: flex;
+}
+
+.close {
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 28px;
+    text-decoration: none;
+    border-radius: 0 10px 0 0;
+}
+
+.modalBlock .content-title {
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(to right, #440000, #985118);
+}
+
+.modalBlock .content-title h2 {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    font-size: 1.3em;
+    font-weight: 200;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+form label {
+    margin-top: 20px;
+}
+
+form input {
+    box-sizing: border-box;
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid #999;
+    height: 55px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #DEE2E5;
+}
+
+form .check {
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+form input[type="checkbox"] {
+    width: 15px;
+    margin-right: 20px;
+}
+
+form h2 {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+form .icon {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+form .icon img {
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+form .icon img:hover {
+    opacity: 0.8;
+}
+
+form .icon img:nth-child(2) {
+    margin-left: 0;
+}
+
+form .btn-block {
+    margin-top: 30px;
+}
+
+form .btn-block a:hover {
+    opacity: 0.8;
+}
+
+
+/* FLAT */
+
+.contents {
+    width: 100%;
+    padding: 20px 20%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.title .first,
+.title .second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title .first h2 {
+    font-size: 1.3em;
+    padding-right: 80px;
+}
+
+.money p {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.title .second {
+    margin-top: 10px;
+}
+
+.btn-block a,
+.btn-block input {
+    text-align: center;
+    color: #4f0400;
+    border: 1px solid #999;
+    padding: 5px 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.8em;
+    background: linear-gradient(to bottom, #fdd13a, #ec8421);
+    outline: none;
+}
+
+.btn-block a:hover {
+    opacity: 0.8;
+}
+
+.image-block {
+    display: inline-block;
+    margin-top: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 18px #000;
+    height: 600px;
+    width: auto;
+}
+
+.image-block img {
+    height: 100%;
+}
+
+.all-image {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.all-image .image {
+    position: relative;
+    height: 120px;
+    padding: 10px;
+}
+
+.all-image .image:nth-child(8) {
+    margin-right: 0;
+}
+
+.all-image .image img {
+    border: 1px solid #999;
+    height: 100%;
+}
+
+.all-image .image img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.mapa-block {
+    height: 400px;
+    width: 100%;
+    margin-top: 80px;
+    border: 1px solid #999;
+    background: #666;
+}
+
+.payment_methods {
+    list-style: none;
+}
+
+///
+.creditCardForm {
+    max-width: 700px;
+    background-color: #fff;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: #4c4e56;
+}
+
+.creditCardForm label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.creditCardForm .heading h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4e56;
+}
+.info-message{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px 100px;
+    text-align: center;
+}
+.styled-label {
+    width: 100%;
+    display: block;
+    border-top: solid 1px #DEE2E5;
+    border-bottom: solid 1px #DEE2E5;
+    padding: 8px 0;
+    margin-top: -1px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: background-color 131ms linear;
+    -moz-transition: background-color 131ms linear;
+    transition: background-color 131ms linear;
+}
+
+.styled-label .field-name {
+    color: #6E787F;
+    font-size: 12px;
+    position: absolute;
+    left: 14px;
+    top: 14px;
+    display: block;
+    opacity: 0;
+    -webkit-transform: translate3d(0, 6px, 0);
+    -moz-transform: translate3d(0, 6px, 0);
+    -ms-transform: translate3d(0, 6px, 0);
+    -o-transform: translate3d(0, 6px, 0);
+    transform: translate3d(0, 6px, 0);
+    -webkit-transition: -webkit-transform 111ms ease-out, opacity 111ms ease-out;
+    -moz-transition: -moz-transform 111ms ease-out, opacity 111ms ease-out;
+    transition: transform 111ms ease-out, opacity 111ms ease-out;
+}
+
+.styled-label .input-field {
+    outline: none;
+    display: block;
+    font-weight: 200;
+    font-size: 16px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 16px 0 0;
+    padding: 0 14px;
+    width: 100%;
+    outline: 0;
+    border: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.input-field .invalid-bottom-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #D0021B;
+    height: 10px;
+    width: 100%;
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20, 0, 1);
+    -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20, 0, 1);
+    -ms-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20, 0, 1);
+    -o-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20, 0, 1);
+}
+
+.flag{
+    display: inline-block;
+    cursor: pointer;
+}
+
+#dropin-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#dropin-container .payment-method-options {
+    display: none !important;
+}
+
+#dropin-container iframe {
+    height: auto;
+}
+
+.creditCardForm #pay-now {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.creditCardForm .payment .btn {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: #2ec4a5;
+    color: white;
+}
+
+.creditCardForm .payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+.regulamin > * {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.transparent {
+    opacity: 0.2;
+}
+form a:link,
+form a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+@media(max-width: 650px) {
+    .creditCardForm .owner,
+    .creditCardForm .CVV,
+    .creditCardForm #expiration-date,
+    .creditCardForm #credit_cards {
+        width: 100%;
+    }
+    .creditCardForm #credit_cards {
+        text-align: left;
+    }
+}
